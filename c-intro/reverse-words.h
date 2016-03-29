@@ -5,8 +5,6 @@
 // check if the word is one word and just return so it stops running;
 
 void reverse_words(char* string){
-	if(strlen(string) < 0) return;
-
 	reverse_range_in_place(string, 0, strlen(string));
 	
 	int start = 0;
@@ -21,14 +19,5 @@ void reverse_words(char* string){
 		}
 	}
 }
-
-// int main(){
-// 	char string[] = "Hello             dude   wazzup";
-// 	//printf("%d",1*strlen(string));
-// 	reverse_words(string);
-// 	printf(string);
-// 	//printf(string);
-// 	return 0;
-// }
 
 
