@@ -27,10 +27,10 @@ char* madlib_by_numbers(char* template, int word_count, char* words[]){
 	return newTemplate;
 }
 
-int main(){
-	// char* words_to_use[] = {"swim", "brilliant", "git"};
-	// char* template = "The 1 2 likes to 0 in the 1 moonlight.";
-	// char* um = madlib_by_numbers(template, 3, words_to_use);
-	return 0;
+// int main(){
+// 	char* words_to_use[] = {"swim", "brilliant", "git"};
+// 	char* template = "The 1 2 likes to 0 in the 1 moonlight.";
+// 	char* um = madlib_by_numbers(template, 3, words_to_use);
+// 	return 0;
 }
 
