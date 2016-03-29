@@ -7,3 +7,7 @@ char* madlib(char* template, char* adjective, char* noun, char* verb){
 	sprintf(news, template, adjective, noun, verb);
 	return news;
 }
+
+int main(){
+	return 0;
+}
